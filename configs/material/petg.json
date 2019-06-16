@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "temperatureController": [
+      {
+        "_attributes": {
+          "name": "Primary Extruder"
+        },
+        "setpoint": [
+          {
+              "_attributes": {
+                  "layer": "1",
+                  "temperature": "240"
+              }
+          },
+          {
+            "_attributes": {
+                "layer": "3",
+                "temperature": "230"
+            }
+          }
+        ]
+      },
+      {
+        "_attributes": {
+          "name": "Heated Bed"
+        },
+        "setpoint": [
+          {
+              "_attributes": {
+                  "layer": "1",
+                  "temperature": "70"
+              }
+          }
+        ]
+      }
+    ]
+  }
+}

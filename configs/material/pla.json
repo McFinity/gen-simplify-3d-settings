@@ -1,0 +1,19 @@
+{
+    "profile": {
+        "temperatureController": [
+            {
+              "_attributes": {
+                "name": "Primary Extruder"
+              },
+              "setpoint": [
+                {
+                    "_attributes": {
+                        "layer": "1",
+                        "temperature": "206"
+                    }
+                }
+              ]
+            }
+        ]
+    }
+  }

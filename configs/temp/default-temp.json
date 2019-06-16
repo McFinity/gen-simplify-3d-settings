@@ -1,23 +1,48 @@
 {
   "profile": {
-    
+    "temperatureController": [
+      {
+        "_attributes": {
+          "name": "Primary Extruder"
+        },
+        "temperatureNumber": 0,
+        "isHeatedBed": 0,
+        "relayBetweenLayers": 0,
+        "relayBetweenLoops": 0,
+        "stabilizeAtStartup": 1,
+        "setpoint": [
+          {
+              "_attributes": {
+                  "layer": "1",
+                  "temperature": "206"
+              }
+          },
+          {
+            "_attributes": {
+                "layer": "2",
+                "temperature": "209"
+            }
+        }
+        ]
+      },
+      {
+        "_attributes": {
+          "name": "Heated Bed"
+        },
+        "temperatureNumber": 0,
+        "isHeatedBed": 1,
+        "relayBetweenLayers": 0,
+        "relayBetweenLoops": 0,
+        "stabilizeAtStartup": 1,
+        "setpoint": [
+          {
+              "_attributes": {
+                  "layer": "1",
+                  "temperature": "50"
+              }
+          }
+        ]
+      }
+    ]
   }
 }
-
-<temperatureController name="Primary Extruder">
-  <temperatureNumber>0</temperatureNumber>
-  <isHeatedBed>0</isHeatedBed>
-  <relayBetweenLayers>0</relayBetweenLayers>
-  <relayBetweenLoops>0</relayBetweenLoops>
-  <stabilizeAtStartup>1</stabilizeAtStartup>
-  <setpoint layer="1" temperature="208"/>
-</temperatureController>
-
-<temperatureController name="Heated Bed">
-  <temperatureNumber>0</temperatureNumber>
-  <isHeatedBed>1</isHeatedBed>
-  <relayBetweenLayers>0</relayBetweenLayers>
-  <relayBetweenLoops>0</relayBetweenLoops>
-  <stabilizeAtStartup>1</stabilizeAtStartup>
-  <setpoint layer="1" temperature="50"/>
-</temperatureController>
