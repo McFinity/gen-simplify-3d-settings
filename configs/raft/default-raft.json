@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "_attributes": {
+      "name": "default config"
+    },
+    "useRaft": 0,
+    "raftTopLayers": 2,
+    "raftBaseLayers": 1,
+    "raftOffset": 2,
+    "raftSeparationDistance": 0.16,
+    "raftTopInfill": 100,
+    "aboveRaftSpeedMultiplier": 0.3
+  }
+}

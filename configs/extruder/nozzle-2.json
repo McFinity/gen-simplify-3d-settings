@@ -1,0 +1,8 @@
+{
+  "profile": {
+    "extruder": {
+      "diameter": 0.2,
+      "width": 0.25
+    }
+  }
+}

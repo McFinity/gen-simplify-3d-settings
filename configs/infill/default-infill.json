@@ -1,0 +1,10 @@
+{
+  "profile": {
+    "infillPercentage": 10,
+    "outlineOverlapPercentage": 15,
+    "infillExtrusionWidthPercentage": 100,
+    "minInfillLength": 5,
+    "internalInfillPattern": "Rectilinear",
+    "externalInfillPattern": "Rectilinear"
+  }
+}

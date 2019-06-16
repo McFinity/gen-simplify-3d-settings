@@ -1,0 +1,23 @@
+{
+  "profile": {
+    
+  }
+}
+
+<temperatureController name="Primary Extruder">
+  <temperatureNumber>0</temperatureNumber>
+  <isHeatedBed>0</isHeatedBed>
+  <relayBetweenLayers>0</relayBetweenLayers>
+  <relayBetweenLoops>0</relayBetweenLoops>
+  <stabilizeAtStartup>1</stabilizeAtStartup>
+  <setpoint layer="1" temperature="208"/>
+</temperatureController>
+
+<temperatureController name="Heated Bed">
+  <temperatureNumber>0</temperatureNumber>
+  <isHeatedBed>1</isHeatedBed>
+  <relayBetweenLayers>0</relayBetweenLayers>
+  <relayBetweenLoops>0</relayBetweenLoops>
+  <stabilizeAtStartup>1</stabilizeAtStartup>
+  <setpoint layer="1" temperature="50"/>
+</temperatureController>

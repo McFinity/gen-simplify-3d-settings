@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "extruder": {
+      "diameter": 0.4,
+      "width": 0.5,
+      "extrusionMultiplier": 1.0,
+      "useRetract": 1,
+      "retractionDistance": 6,
+      "extraRestartDistance": -0.1,
+      "retractionZLift": 0.12,
+      "retractionSpeed": 3600,
+      "useCoasting": 1,
+      "coastingDistance": 0.12,
+      "useWipe": 0,
+      "wipeDistance": 5
+    }
+  }
+}

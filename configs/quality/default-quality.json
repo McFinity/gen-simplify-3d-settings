@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "layerHeight": 0.2,
+    "topSolidLayers": 4,
+    "bottomSolidLayers": 4,
+    "perimeterOutlines": 4,
+    "printPerimetersInsideOut": 1,
+    "spiralVaseMode": 0,
+    "firstLayerHeightPercentage": 50,
+    "firstLayerWidthPercentage": 125,
+    "firstLayerUnderspeed": 0.5,
+    "supportUnderspeed": 0.8
+  }
+}
