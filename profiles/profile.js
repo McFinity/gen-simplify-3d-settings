@@ -6,7 +6,7 @@ const glob = require('glob')
 
 const extruders = glob.sync("configs/extruder/nozzle*.json", {}).map(path => path.replace('configs/', ''))
 const qualities = glob.sync("configs/quality/quality*.json", {}).map(path => path.replace('configs/', ''))
-const materials = glob.sync("configs/quality/*.json", {}).map(path => path.replace('configs/', ''))
+const materials = glob.sync("configs/material/*.json", {}).map(path => path.replace('configs/', ''))
 
 const createProfileName = (name) => ({
   profile: {
@@ -42,11 +42,12 @@ const getDefaultProfile = () => {
   const defaultRaft = require(path.resolve(__dirname, '../configs/raft/default-raft.json'))
   const defaultSupports = require(path.resolve(__dirname, '../configs/supports/default-supports.json'))
   const defaultTemp = require(path.resolve(__dirname, '../configs/temp/default-temp.json'))
+  const defaultFan = require(path.resolve(__dirname, '../configs/fan/default-fan.json'))
 
   const baseConfigXml = fs.readFileSync(path.resolve(__dirname, '../configs/base-config.xml'), 'utf8')
   const baseConfig = convert.xml2js(baseConfigXml, { compact: true, ignoreComment: true, spaces: 4 })
 
-  return merge(baseConfig, defaultExtruder, defaultQuality, defaultInfill, defaultRaft, defaultSupports, defaultTemp)
+  return merge(baseConfig, defaultExtruder, defaultQuality, defaultInfill, defaultRaft, defaultSupports, defaultTemp, defaultFan)
 }
 
 const outputProfileToXmlFile = (path, profile) => {
@@ -61,6 +62,21 @@ const generateProfile = ({ name, configPaths }) => {
     ...configPaths.map(configPath => require(path.resolve('./configs', configPath)))
   )
 
+  const combinedFanSetPoints = finalProfileJs.profile.fanSpeed.setpoint.reduce((combinedSetPoints, setPoint) => {
+    combinedSetPoints[setPoint._attributes.layer] = setPoint._attributes.speed
+    return combinedSetPoints
+  }, {})
+
+  const fanSetPoints = Object.keys(combinedFanSetPoints).map(layer => {
+    return {
+      "_attributes": {
+          layer,
+          speed: combinedFanSetPoints[layer]
+      }
+    }
+  })
+
+  finalProfileJs.profile.fanSpeed.setpoint = fanSetPoints
  
   const primaryExtruderTemps = finalProfileJs.profile.temperatureController.filter(temperatureController => temperatureController._attributes.name === 'Primary Extruder')
   const primaryExtruderTemp = primaryExtruderTemps.reduce((reducedTemp, primaryExtruderTemp) => ({ ...reducedTemp, ...primaryExtruderTemp }), {})

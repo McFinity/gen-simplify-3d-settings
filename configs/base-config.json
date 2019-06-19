@@ -1,1 +1,807 @@
-{"_declaration":{"_attributes":{"version":"1.0"}},"profile":{"_attributes":{"name":"Creality CR-10","version":"2019-06-16 13:21:59","app":"S3D-Software 4.1.2"},"baseProfile":{},"printMaterial":{"_text":"PLA"},"printQuality":{"_text":"Medium"},"printExtruders":{},"extruder":{"_attributes":{"name":"Primary Extruder"},"toolheadNumber":{"_text":"0"},"diameter":{"_text":"0.4"},"autoWidth":{"_text":"0"},"width":{"_text":"0.4"},"extrusionMultiplier":{"_text":"0.9"},"useRetract":{"_text":"1"},"retractionDistance":{"_text":"5"},"extraRestartDistance":{"_text":"0"},"retractionZLift":{"_text":"0"},"retractionSpeed":{"_text":"1800"},"useCoasting":{"_text":"0"},"coastingDistance":{"_text":"0.2"},"useWipe":{"_text":"0"},"wipeDistance":{"_text":"5"}},"primaryExtruder":{"_text":"0"},"layerHeight":{"_text":"0.2"},"topSolidLayers":{"_text":"3"},"bottomSolidLayers":{"_text":"3"},"perimeterOutlines":{"_text":"2"},"printPerimetersInsideOut":{"_text":"1"},"startPointOption":{"_text":"2"},"startPointOriginX":{"_text":"0"},"startPointOriginY":{"_text":"0"},"sequentialIslands":{"_text":"0"},"spiralVaseMode":{"_text":"0"},"firstLayerHeightPercentage":{"_text":"120"},"firstLayerWidthPercentage":{"_text":"150"},"firstLayerUnderspeed":{"_text":"0.5"},"useRaft":{"_text":"0"},"raftExtruder":{"_text":"0"},"raftTopLayers":{"_text":"3"},"raftBaseLayers":{"_text":"2"},"raftOffset":{"_text":"3"},"raftSeparationDistance":{"_text":"0.14"},"raftTopInfill":{"_text":"100"},"aboveRaftSpeedMultiplier":{"_text":"0.3"},"useSkirt":{"_text":"1"},"skirtExtruder":{"_text":"0"},"skirtLayers":{"_text":"1"},"skirtOutlines":{"_text":"2"},"skirtOffset":{"_text":"4"},"usePrimePillar":{"_text":"0"},"primePillarExtruder":{"_text":"999"},"primePillarWidth":{"_text":"12"},"primePillarLocation":{"_text":"7"},"primePillarSpeedMultiplier":{"_text":"1"},"useOozeShield":{"_text":"0"},"oozeShieldExtruder":{"_text":"999"},"oozeShieldOffset":{"_text":"2"},"oozeShieldOutlines":{"_text":"1"},"oozeShieldSidewallShape":{"_text":"1"},"oozeShieldSidewallAngle":{"_text":"30"},"oozeShieldSpeedMultiplier":{"_text":"1"},"infillExtruder":{"_text":"0"},"internalInfillPattern":{"_text":"Rectilinear"},"externalInfillPattern":{"_text":"Rectilinear"},"infillPercentage":{"_text":"20"},"outlineOverlapPercentage":{"_text":"15"},"infillExtrusionWidthPercentage":{"_text":"100"},"minInfillLength":{"_text":"5"},"infillLayerInterval":{"_text":"1"},"internalInfillAngles":{"_text":"45,-45"},"overlapInternalInfillAngles":{"_text":"0"},"externalInfillAngles":{"_text":"45,-45"},"generateSupport":{"_text":"0"},"supportExtruder":{"_text":"0"},"supportInfillPercentage":{"_text":"30"},"supportExtraInflation":{"_text":"0"},"supportBaseLayers":{"_text":"0"},"denseSupportExtruder":{"_text":"0"},"denseSupportLayers":{"_text":"0"},"denseSupportInfillPercentage":{"_text":"70"},"supportLayerInterval":{"_text":"1"},"supportHorizontalPartOffset":{"_text":"0.3"},"supportUpperSeparationLayers":{"_text":"1"},"supportLowerSeparationLayers":{"_text":"1"},"supportType":{"_text":"0"},"supportGridSpacing":{"_text":"4"},"maxOverhangAngle":{"_text":"45"},"supportAngles":{"_text":"0"},"temperatureController":[{"_attributes":{"name":"Primary Extruder"},"temperatureNumber":{"_text":"0"},"isHeatedBed":{"_text":"0"},"stabilizeAtStartup":{"_text":"1"},"setpoint":[{"_attributes":{"layer":"1","temperature":"210"}},{"_attributes":{"layer":"2","temperature":"200"}},{"_attributes":{"layer":"3","temperature":"190"}}]},{"_attributes":{"name":"Heated Bed"},"temperatureNumber":{"_text":"0"},"isHeatedBed":{"_text":"1"},"stabilizeAtStartup":{"_text":"1"},"setpoint":{"_attributes":{"layer":"1","temperature":"60"}}}],"fanSpeed":{"setpoint":[{"_attributes":{"layer":"1","speed":"0"}},{"_attributes":{"layer":"2","speed":"100"}}]},"blipFanToFullPower":{"_text":"0"},"adjustSpeedForCooling":{"_text":"1"},"minSpeedLayerTime":{"_text":"15"},"minCoolingSpeedSlowdown":{"_text":"20"},"increaseFanForCooling":{"_text":"0"},"minFanLayerTime":{"_text":"45"},"maxCoolingFanSpeed":{"_text":"100"},"increaseFanForBridging":{"_text":"0"},"bridgingFanSpeed":{"_text":"100"},"use5D":{"_text":"1"},"relativeEdistances":{"_text":"0"},"allowEaxisZeroing":{"_text":"1"},"independentExtruderAxes":{"_text":"0"},"includeM10123":{"_text":"0"},"stickySupport":{"_text":"1"},"applyToolheadOffsets":{"_text":"0"},"gcodeXoffset":{"_text":"0"},"gcodeYoffset":{"_text":"0"},"gcodeZoffset":{"_text":"0"},"overrideMachineDefinition":{"_text":"1"},"machineTypeOverride":{"_text":"0"},"strokeXoverride":{"_text":"300"},"strokeYoverride":{"_text":"300"},"strokeZoverride":{"_text":"400"},"originOffsetXoverride":{"_text":"0"},"originOffsetYoverride":{"_text":"0"},"originOffsetZoverride":{"_text":"0"},"homeXdirOverride":{"_text":"-1"},"homeYdirOverride":{"_text":"-1"},"homeZdirOverride":{"_text":"-1"},"flipXoverride":{"_text":"1"},"flipYoverride":{"_text":"-1"},"flipZoverride":{"_text":"1"},"toolheadOffsets":{"_text":"0,0|0,0|0,0|0,0|0,0|0,0"},"overrideFirmwareConfiguration":{"_text":"1"},"firmwareTypeOverride":{"_text":"RepRap (Marlin/Repetier/Sprinter)"},"GPXconfigOverride":{"_text":"r2"},"baudRateOverride":{"_text":"115200"},"overridePrinterModels":{"_text":"1"},"printerModelsOverride":{},"startingGcode":{"_text":"G28 ; home all axes,G1 Z5 F3000 ; lift,G1 X5 Y10 F1500 ; move to prime,G1 Z0.2 F3000 ; get ready to prime,G92 E0 ; reset extrusion distance,G1 Y80 E10 F600 ; prime nozzle,G1 Y100 F5000 ; quick wipe"},"layerChangeGcode":{},"retractionGcode":{},"toolChangeGcode":{},"endingGcode":{"_text":"G28 X0 ; home x axis,M106 S0 ; turn off cooling fan,M104 S0 ; turn off extruder,M140 S0 ; turn off bed,M84 ; disable motors"},"exportFileFormat":{"_text":"gcode"},"celebration":{"_text":"0"},"celebrationSong":{"_text":"Random Song"},"postProcessing":{},"defaultSpeed":{"_text":"2400"},"outlineUnderspeed":{"_text":"0.5"},"solidInfillUnderspeed":{"_text":"0.8"},"supportUnderspeed":{"_text":"0.8"},"rapidXYspeed":{"_text":"4800"},"rapidZspeed":{"_text":"1000"},"minBridgingArea":{"_text":"50"},"bridgingExtraInflation":{"_text":"0"},"bridgingExtrusionMultiplier":{"_text":"1"},"bridgingSpeedMultiplier":{"_text":"1"},"useFixedBridgingAngle":{"_text":"0"},"fixedBridgingAngle":{"_text":"0"},"applyBridgingToPerimeters":{"_text":"0"},"filamentDiameters":{"_text":"1.75|1.75|1.75|1.75|1.75|1.75"},"filamentPricesPerKg":{"_text":"46|46|46|46|46|46"},"filamentDensities":{"_text":"1.25|1.25|1.25|1.25|1.25|1.25"},"useMinPrintHeight":{"_text":"0"},"minPrintHeight":{"_text":"0"},"useMaxPrintHeight":{"_text":"0"},"maxPrintHeight":{"_text":"0"},"useDiaphragm":{"_text":"0"},"diaphragmLayerInterval":{"_text":"20"},"robustSlicing":{"_text":"1"},"mergeAllIntoSolid":{"_text":"0"},"onlyRetractWhenCrossingOutline":{"_text":"1"},"retractBetweenLayers":{"_text":"1"},"useRetractionMinTravel":{"_text":"0"},"retractionMinTravel":{"_text":"3"},"retractWhileWiping":{"_text":"0"},"onlyWipeOutlines":{"_text":"1"},"avoidCrossingOutline":{"_text":"0"},"maxMovementDetourFactor":{"_text":"3"},"toolChangeRetractionDistance":{"_text":"12"},"toolChangeExtraRestartDistance":{"_text":"-0.5"},"toolChangeRetractionSpeed":{"_text":"600"},"externalThinWallType":{"_text":"0"},"internalThinWallType":{"_text":"2"},"thinWallAllowedOverlapPercentage":{"_text":"10"},"singleExtrusionMinLength":{"_text":"1"},"singleExtrusionMinPrintingWidthPercentage":{"_text":"50"},"singleExtrusionMaxPrintingWidthPercentage":{"_text":"200"},"singleExtrusionEndpointExtension":{"_text":"0.2"},"horizontalSizeCompensation":{"_text":"0"},"autoConfigureMaterial":[{"_attributes":{"name":"PLA"},"temperatureController":{"_attributes":{"name":"Primary Extruder"},"temperatureNumber":{"_text":"0"},"isHeatedBed":{"_text":"0"},"stabilizeAtStartup":{"_text":"1"},"setpoint":[{"_attributes":{"layer":"1","temperature":"210"}},{"_attributes":{"layer":"2","temperature":"200"}},{"_attributes":{"layer":"3","temperature":"190"}}]},"globalBedTemperature":{"_text":"60"},"globalExtrusionMultiplier":{"_text":"0.9"},"fanSpeed":{"setpoint":[{"_attributes":{"layer":"1","speed":"0"}},{"_attributes":{"layer":"2","speed":"100"}}]}},{"_attributes":{"name":"ABS"},"globalExtruderTemperature":{"_text":"225"},"globalBedTemperature":{"_text":"80"},"globalExtrusionMultiplier":{"_text":"1"},"fanSpeed":{"setpoint":{"_attributes":{"layer":"1","speed":"0"}}}},{"_attributes":{"name":"PVA"},"globalExtruderTemperature":{"_text":"195"},"globalBedTemperature":{"_text":"80"},"globalExtrusionMultiplier":{"_text":"1"},"fanSpeed":{"setpoint":[{"_attributes":{"layer":"1","speed":"0"}},{"_attributes":{"layer":"2","speed":"100"}}]}},{"_attributes":{"name":"Nylon"},"globalExtruderTemperature":{"_text":"220"},"globalBedTemperature":{"_text":"80"},"globalExtrusionMultiplier":{"_text":"1"},"fanSpeed":{"setpoint":{"_attributes":{"layer":"1","speed":"0"}}}}],"autoConfigureQuality":[{"_attributes":{"name":"Fast"},"layerHeight":{"_text":"0.3"},"topSolidLayers":{"_text":"3"},"bottomSolidLayers":{"_text":"3"},"skirtLayers":{"_text":"1"},"infillPercentage":{"_text":"15"},"supportInfillPercentage":{"_text":"25"}},{"_attributes":{"name":"Medium"},"layerHeight":{"_text":"0.2"},"topSolidLayers":{"_text":"3"},"bottomSolidLayers":{"_text":"3"},"skirtLayers":{"_text":"1"},"infillPercentage":{"_text":"20"},"supportInfillPercentage":{"_text":"30"}},{"_attributes":{"name":"High"},"layerHeight":{"_text":"0.1"},"topSolidLayers":{"_text":"4"},"bottomSolidLayers":{"_text":"4"},"skirtLayers":{"_text":"2"},"infillPercentage":{"_text":"30"},"supportInfillPercentage":{"_text":"40"}}]}}
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0"
+        }
+    },
+    "profile": {
+        "_attributes": {
+            "name": "Creality CR-10",
+            "version": "2019-06-16 13:21:59",
+            "app": "S3D-Software 4.1.2"
+        },
+        "baseProfile": {},
+        "printMaterial": {
+            "_text": "PLA"
+        },
+        "printQuality": {
+            "_text": "Medium"
+        },
+        "printExtruders": {},
+        "extruder": {
+            "_attributes": {
+                "name": "Primary Extruder"
+            },
+            "toolheadNumber": {
+                "_text": "0"
+            },
+            "diameter": {
+                "_text": "0.4"
+            },
+            "autoWidth": {
+                "_text": "0"
+            },
+            "width": {
+                "_text": "0.4"
+            },
+            "extrusionMultiplier": {
+                "_text": "0.9"
+            },
+            "useRetract": {
+                "_text": "1"
+            },
+            "retractionDistance": {
+                "_text": "5"
+            },
+            "extraRestartDistance": {
+                "_text": "0"
+            },
+            "retractionZLift": {
+                "_text": "0"
+            },
+            "retractionSpeed": {
+                "_text": "1800"
+            },
+            "useCoasting": {
+                "_text": "0"
+            },
+            "coastingDistance": {
+                "_text": "0.2"
+            },
+            "useWipe": {
+                "_text": "0"
+            },
+            "wipeDistance": {
+                "_text": "5"
+            }
+        },
+        "primaryExtruder": {
+            "_text": "0"
+        },
+        "layerHeight": {
+            "_text": "0.2"
+        },
+        "topSolidLayers": {
+            "_text": "3"
+        },
+        "bottomSolidLayers": {
+            "_text": "3"
+        },
+        "perimeterOutlines": {
+            "_text": "2"
+        },
+        "printPerimetersInsideOut": {
+            "_text": "1"
+        },
+        "startPointOption": {
+            "_text": "2"
+        },
+        "startPointOriginX": {
+            "_text": "0"
+        },
+        "startPointOriginY": {
+            "_text": "0"
+        },
+        "sequentialIslands": {
+            "_text": "0"
+        },
+        "spiralVaseMode": {
+            "_text": "0"
+        },
+        "firstLayerHeightPercentage": {
+            "_text": "120"
+        },
+        "firstLayerWidthPercentage": {
+            "_text": "150"
+        },
+        "firstLayerUnderspeed": {
+            "_text": "0.5"
+        },
+        "useRaft": {
+            "_text": "0"
+        },
+        "raftExtruder": {
+            "_text": "0"
+        },
+        "raftTopLayers": {
+            "_text": "3"
+        },
+        "raftBaseLayers": {
+            "_text": "2"
+        },
+        "raftOffset": {
+            "_text": "3"
+        },
+        "raftSeparationDistance": {
+            "_text": "0.14"
+        },
+        "raftTopInfill": {
+            "_text": "100"
+        },
+        "aboveRaftSpeedMultiplier": {
+            "_text": "0.3"
+        },
+        "useSkirt": {
+            "_text": "1"
+        },
+        "skirtExtruder": {
+            "_text": "0"
+        },
+        "skirtLayers": {
+            "_text": "1"
+        },
+        "skirtOutlines": {
+            "_text": "2"
+        },
+        "skirtOffset": {
+            "_text": "4"
+        },
+        "usePrimePillar": {
+            "_text": "0"
+        },
+        "primePillarExtruder": {
+            "_text": "999"
+        },
+        "primePillarWidth": {
+            "_text": "12"
+        },
+        "primePillarLocation": {
+            "_text": "7"
+        },
+        "primePillarSpeedMultiplier": {
+            "_text": "1"
+        },
+        "useOozeShield": {
+            "_text": "0"
+        },
+        "oozeShieldExtruder": {
+            "_text": "999"
+        },
+        "oozeShieldOffset": {
+            "_text": "2"
+        },
+        "oozeShieldOutlines": {
+            "_text": "1"
+        },
+        "oozeShieldSidewallShape": {
+            "_text": "1"
+        },
+        "oozeShieldSidewallAngle": {
+            "_text": "30"
+        },
+        "oozeShieldSpeedMultiplier": {
+            "_text": "1"
+        },
+        "infillExtruder": {
+            "_text": "0"
+        },
+        "internalInfillPattern": {
+            "_text": "Rectilinear"
+        },
+        "externalInfillPattern": {
+            "_text": "Rectilinear"
+        },
+        "infillPercentage": {
+            "_text": "20"
+        },
+        "outlineOverlapPercentage": {
+            "_text": "15"
+        },
+        "infillExtrusionWidthPercentage": {
+            "_text": "100"
+        },
+        "minInfillLength": {
+            "_text": "5"
+        },
+        "infillLayerInterval": {
+            "_text": "1"
+        },
+        "internalInfillAngles": {
+            "_text": "45,-45"
+        },
+        "overlapInternalInfillAngles": {
+            "_text": "0"
+        },
+        "externalInfillAngles": {
+            "_text": "45,-45"
+        },
+        "generateSupport": {
+            "_text": "0"
+        },
+        "supportExtruder": {
+            "_text": "0"
+        },
+        "supportInfillPercentage": {
+            "_text": "30"
+        },
+        "supportExtraInflation": {
+            "_text": "0"
+        },
+        "supportBaseLayers": {
+            "_text": "0"
+        },
+        "denseSupportExtruder": {
+            "_text": "0"
+        },
+        "denseSupportLayers": {
+            "_text": "0"
+        },
+        "denseSupportInfillPercentage": {
+            "_text": "70"
+        },
+        "supportLayerInterval": {
+            "_text": "1"
+        },
+        "supportHorizontalPartOffset": {
+            "_text": "0.3"
+        },
+        "supportUpperSeparationLayers": {
+            "_text": "1"
+        },
+        "supportLowerSeparationLayers": {
+            "_text": "1"
+        },
+        "supportType": {
+            "_text": "0"
+        },
+        "supportGridSpacing": {
+            "_text": "4"
+        },
+        "maxOverhangAngle": {
+            "_text": "45"
+        },
+        "supportAngles": {
+            "_text": "0"
+        },
+        "temperatureController": [
+            {
+                "_attributes": {
+                    "name": "Primary Extruder"
+                },
+                "temperatureNumber": {
+                    "_text": "0"
+                },
+                "isHeatedBed": {
+                    "_text": "0"
+                },
+                "stabilizeAtStartup": {
+                    "_text": "1"
+                },
+                "setpoint": [
+                    {
+                        "_attributes": {
+                            "layer": "1",
+                            "temperature": "210"
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "layer": "2",
+                            "temperature": "200"
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "layer": "3",
+                            "temperature": "190"
+                        }
+                    }
+                ]
+            },
+            {
+                "_attributes": {
+                    "name": "Heated Bed"
+                },
+                "temperatureNumber": {
+                    "_text": "0"
+                },
+                "isHeatedBed": {
+                    "_text": "1"
+                },
+                "stabilizeAtStartup": {
+                    "_text": "1"
+                },
+                "setpoint": {
+                    "_attributes": {
+                        "layer": "1",
+                        "temperature": "60"
+                    }
+                }
+            }
+        ],
+        "fanSpeed": {
+            "setpoint": [
+                {
+                    "_attributes": {
+                        "layer": "1",
+                        "speed": "0"
+                    }
+                }
+            ]
+        },
+        "blipFanToFullPower": {
+            "_text": "0"
+        },
+        "adjustSpeedForCooling": {
+            "_text": "1"
+        },
+        "minSpeedLayerTime": {
+            "_text": "15"
+        },
+        "minCoolingSpeedSlowdown": {
+            "_text": "20"
+        },
+        "increaseFanForCooling": {
+            "_text": "0"
+        },
+        "minFanLayerTime": {
+            "_text": "45"
+        },
+        "maxCoolingFanSpeed": {
+            "_text": "100"
+        },
+        "increaseFanForBridging": {
+            "_text": "0"
+        },
+        "bridgingFanSpeed": {
+            "_text": "100"
+        },
+        "use5D": {
+            "_text": "1"
+        },
+        "relativeEdistances": {
+            "_text": "0"
+        },
+        "allowEaxisZeroing": {
+            "_text": "1"
+        },
+        "independentExtruderAxes": {
+            "_text": "0"
+        },
+        "includeM10123": {
+            "_text": "0"
+        },
+        "stickySupport": {
+            "_text": "1"
+        },
+        "applyToolheadOffsets": {
+            "_text": "0"
+        },
+        "gcodeXoffset": {
+            "_text": "0"
+        },
+        "gcodeYoffset": {
+            "_text": "0"
+        },
+        "gcodeZoffset": {
+            "_text": "0"
+        },
+        "overrideMachineDefinition": {
+            "_text": "1"
+        },
+        "machineTypeOverride": {
+            "_text": "0"
+        },
+        "strokeXoverride": {
+            "_text": "300"
+        },
+        "strokeYoverride": {
+            "_text": "300"
+        },
+        "strokeZoverride": {
+            "_text": "400"
+        },
+        "originOffsetXoverride": {
+            "_text": "0"
+        },
+        "originOffsetYoverride": {
+            "_text": "0"
+        },
+        "originOffsetZoverride": {
+            "_text": "0"
+        },
+        "homeXdirOverride": {
+            "_text": "-1"
+        },
+        "homeYdirOverride": {
+            "_text": "-1"
+        },
+        "homeZdirOverride": {
+            "_text": "-1"
+        },
+        "flipXoverride": {
+            "_text": "1"
+        },
+        "flipYoverride": {
+            "_text": "-1"
+        },
+        "flipZoverride": {
+            "_text": "1"
+        },
+        "toolheadOffsets": {
+            "_text": "0,0|0,0|0,0|0,0|0,0|0,0"
+        },
+        "overrideFirmwareConfiguration": {
+            "_text": "1"
+        },
+        "firmwareTypeOverride": {
+            "_text": "RepRap (Marlin/Repetier/Sprinter)"
+        },
+        "GPXconfigOverride": {
+            "_text": "r2"
+        },
+        "baudRateOverride": {
+            "_text": "115200"
+        },
+        "overridePrinterModels": {
+            "_text": "1"
+        },
+        "printerModelsOverride": {},
+        "startingGcode": {
+            "_text": "G28 ; home all axes,G1 Z5 F3000 ; lift,G1 X5 Y10 F1500 ; move to prime,G1 Z0.2 F3000 ; get ready to prime,G92 E0 ; reset extrusion distance,G1 Y80 E10 F600 ; prime nozzle,G1 Y100 F5000 ; quick wipe"
+        },
+        "layerChangeGcode": {},
+        "retractionGcode": {},
+        "toolChangeGcode": {},
+        "endingGcode": {
+            "_text": "G28 X0 ; home x axis,M106 S0 ; turn off cooling fan,M104 S0 ; turn off extruder,M140 S0 ; turn off bed,M84 ; disable motors"
+        },
+        "exportFileFormat": {
+            "_text": "gcode"
+        },
+        "celebration": {
+            "_text": "0"
+        },
+        "celebrationSong": {
+            "_text": "Random Song"
+        },
+        "postProcessing": {},
+        "defaultSpeed": {
+            "_text": "2400"
+        },
+        "outlineUnderspeed": {
+            "_text": "0.5"
+        },
+        "solidInfillUnderspeed": {
+            "_text": "0.8"
+        },
+        "supportUnderspeed": {
+            "_text": "0.8"
+        },
+        "rapidXYspeed": {
+            "_text": "4800"
+        },
+        "rapidZspeed": {
+            "_text": "1000"
+        },
+        "minBridgingArea": {
+            "_text": "50"
+        },
+        "bridgingExtraInflation": {
+            "_text": "0"
+        },
+        "bridgingExtrusionMultiplier": {
+            "_text": "1"
+        },
+        "bridgingSpeedMultiplier": {
+            "_text": "1"
+        },
+        "useFixedBridgingAngle": {
+            "_text": "0"
+        },
+        "fixedBridgingAngle": {
+            "_text": "0"
+        },
+        "applyBridgingToPerimeters": {
+            "_text": "0"
+        },
+        "filamentDiameters": {
+            "_text": "1.75|1.75|1.75|1.75|1.75|1.75"
+        },
+        "filamentPricesPerKg": {
+            "_text": "46|46|46|46|46|46"
+        },
+        "filamentDensities": {
+            "_text": "1.25|1.25|1.25|1.25|1.25|1.25"
+        },
+        "useMinPrintHeight": {
+            "_text": "0"
+        },
+        "minPrintHeight": {
+            "_text": "0"
+        },
+        "useMaxPrintHeight": {
+            "_text": "0"
+        },
+        "maxPrintHeight": {
+            "_text": "0"
+        },
+        "useDiaphragm": {
+            "_text": "0"
+        },
+        "diaphragmLayerInterval": {
+            "_text": "20"
+        },
+        "robustSlicing": {
+            "_text": "1"
+        },
+        "mergeAllIntoSolid": {
+            "_text": "0"
+        },
+        "onlyRetractWhenCrossingOutline": {
+            "_text": "1"
+        },
+        "retractBetweenLayers": {
+            "_text": "1"
+        },
+        "useRetractionMinTravel": {
+            "_text": "0"
+        },
+        "retractionMinTravel": {
+            "_text": "3"
+        },
+        "retractWhileWiping": {
+            "_text": "0"
+        },
+        "onlyWipeOutlines": {
+            "_text": "1"
+        },
+        "avoidCrossingOutline": {
+            "_text": "0"
+        },
+        "maxMovementDetourFactor": {
+            "_text": "3"
+        },
+        "toolChangeRetractionDistance": {
+            "_text": "12"
+        },
+        "toolChangeExtraRestartDistance": {
+            "_text": "-0.5"
+        },
+        "toolChangeRetractionSpeed": {
+            "_text": "600"
+        },
+        "externalThinWallType": {
+            "_text": "0"
+        },
+        "internalThinWallType": {
+            "_text": "2"
+        },
+        "thinWallAllowedOverlapPercentage": {
+            "_text": "10"
+        },
+        "singleExtrusionMinLength": {
+            "_text": "1"
+        },
+        "singleExtrusionMinPrintingWidthPercentage": {
+            "_text": "50"
+        },
+        "singleExtrusionMaxPrintingWidthPercentage": {
+            "_text": "200"
+        },
+        "singleExtrusionEndpointExtension": {
+            "_text": "0.2"
+        },
+        "horizontalSizeCompensation": {
+            "_text": "0"
+        },
+        "autoConfigureMaterial": [
+            {
+                "_attributes": {
+                    "name": "PLA"
+                },
+                "temperatureController": {
+                    "_attributes": {
+                        "name": "Primary Extruder"
+                    },
+                    "temperatureNumber": {
+                        "_text": "0"
+                    },
+                    "isHeatedBed": {
+                        "_text": "0"
+                    },
+                    "stabilizeAtStartup": {
+                        "_text": "1"
+                    },
+                    "setpoint": [
+                        {
+                            "_attributes": {
+                                "layer": "1",
+                                "temperature": "210"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "layer": "2",
+                                "temperature": "200"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "layer": "3",
+                                "temperature": "190"
+                            }
+                        }
+                    ]
+                },
+                "globalBedTemperature": {
+                    "_text": "60"
+                },
+                "globalExtrusionMultiplier": {
+                    "_text": "0.9"
+                },
+                "fanSpeed": {
+                    "setpoint": [
+                        {
+                            "_attributes": {
+                                "layer": "1",
+                                "speed": "0"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "layer": "2",
+                                "speed": "100"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "ABS"
+                },
+                "globalExtruderTemperature": {
+                    "_text": "225"
+                },
+                "globalBedTemperature": {
+                    "_text": "80"
+                },
+                "globalExtrusionMultiplier": {
+                    "_text": "1"
+                },
+                "fanSpeed": {
+                    "setpoint": {
+                        "_attributes": {
+                            "layer": "1",
+                            "speed": "0"
+                        }
+                    }
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "PVA"
+                },
+                "globalExtruderTemperature": {
+                    "_text": "195"
+                },
+                "globalBedTemperature": {
+                    "_text": "80"
+                },
+                "globalExtrusionMultiplier": {
+                    "_text": "1"
+                },
+                "fanSpeed": {
+                    "setpoint": [
+                        {
+                            "_attributes": {
+                                "layer": "1",
+                                "speed": "0"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "layer": "2",
+                                "speed": "100"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "Nylon"
+                },
+                "globalExtruderTemperature": {
+                    "_text": "220"
+                },
+                "globalBedTemperature": {
+                    "_text": "80"
+                },
+                "globalExtrusionMultiplier": {
+                    "_text": "1"
+                },
+                "fanSpeed": {
+                    "setpoint": {
+                        "_attributes": {
+                            "layer": "1",
+                            "speed": "0"
+                        }
+                    }
+                }
+            }
+        ],
+        "autoConfigureQuality": [
+            {
+                "_attributes": {
+                    "name": "Fast"
+                },
+                "layerHeight": {
+                    "_text": "0.3"
+                },
+                "topSolidLayers": {
+                    "_text": "3"
+                },
+                "bottomSolidLayers": {
+                    "_text": "3"
+                },
+                "skirtLayers": {
+                    "_text": "1"
+                },
+                "infillPercentage": {
+                    "_text": "15"
+                },
+                "supportInfillPercentage": {
+                    "_text": "25"
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "Medium"
+                },
+                "layerHeight": {
+                    "_text": "0.2"
+                },
+                "topSolidLayers": {
+                    "_text": "3"
+                },
+                "bottomSolidLayers": {
+                    "_text": "3"
+                },
+                "skirtLayers": {
+                    "_text": "1"
+                },
+                "infillPercentage": {
+                    "_text": "20"
+                },
+                "supportInfillPercentage": {
+                    "_text": "30"
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "High"
+                },
+                "layerHeight": {
+                    "_text": "0.1"
+                },
+                "topSolidLayers": {
+                    "_text": "4"
+                },
+                "bottomSolidLayers": {
+                    "_text": "4"
+                },
+                "skirtLayers": {
+                    "_text": "2"
+                },
+                "infillPercentage": {
+                    "_text": "30"
+                },
+                "supportInfillPercentage": {
+                    "_text": "40"
+                }
+            }
+        ]
+    }
+}

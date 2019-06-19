@@ -1,0 +1,14 @@
+{
+    "profile": {
+        "fanSpeed": {
+            "setpoint": [
+                {
+                    "_attributes": {
+                        "layer": "1",
+                        "speed": "0"
+                    }
+                }
+            ]
+        }
+    }
+}

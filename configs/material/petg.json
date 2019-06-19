@@ -33,6 +33,22 @@
           }
         ]
       }
-    ]
+    ],
+    "fanSpeed": {
+      "setpoint": [
+          {
+              "_attributes": {
+                  "layer": "1",
+                  "speed": "50"
+              }
+          },
+          {
+              "_attributes": {
+                  "layer": "3",
+                  "speed": "0"
+              }
+          }
+      ]
+    }
   }
 }
