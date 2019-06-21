@@ -1,5 +1,6 @@
 {
   "profile": {
+    "defaultSpeed": "2400",
     "temperatureController": [
       {
         "_attributes": {

@@ -157,11 +157,11 @@
     <celebrationSong>Funky Town</celebrationSong>
     <postProcessing/>
     <defaultSpeed>2400</defaultSpeed>
-    <outlineUnderspeed>0.7</outlineUnderspeed>
+    <outlineUnderspeed>0.5</outlineUnderspeed>
     <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
     <supportUnderspeed>0.8</supportUnderspeed>
-    <rapidXYspeed>6000</rapidXYspeed>
-    <rapidZspeed>1002</rapidZspeed>
+    <rapidXYspeed>4800</rapidXYspeed>
+    <rapidZspeed>1000</rapidZspeed>
     <minBridgingArea>5</minBridgingArea>
     <bridgingExtraInflation>0</bridgingExtraInflation>
     <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
@@ -192,10 +192,10 @@
     <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
     <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
     <externalThinWallType>0</externalThinWallType>
-    <internalThinWallType>1</internalThinWallType>
-    <thinWallAllowedOverlapPercentage>25</thinWallAllowedOverlapPercentage>
+    <internalThinWallType>2</internalThinWallType>
+    <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
     <singleExtrusionMinLength>1</singleExtrusionMinLength>
-    <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
+    <singleExtrusionMinPrintingWidthPercentage>90</singleExtrusionMinPrintingWidthPercentage>
     <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
     <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
     <horizontalSizeCompensation>0</horizontalSizeCompensation>

@@ -1,0 +1,13 @@
+{
+    "profile": {
+        "defaultSpeed": "3600",
+        "outlineUnderspeed": "0.5",
+        "solidInfillUnderspeed": "0.8",
+        "supportUnderspeed": "0.8",
+        "rapidXYspeed": "4800",
+        "rapidZspeed": "1000",
+        "adjustSpeedForCooling": "1",
+        "minSpeedLayerTime": "15",
+        "minCoolingSpeedSlowdown": "20"
+    }
+}

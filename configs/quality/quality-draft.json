@@ -1,5 +1,6 @@
 {
   "profile": {
+    "defaultSpeed": "3600",
     "layerHeight": 0.3,
     "topSolidLayers": 4,
     "bottomSolidLayers": 4,

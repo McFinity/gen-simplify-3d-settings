@@ -37,6 +37,7 @@ const createProfileManifest = ({ machineConfig }) => {
 
 const getDefaultProfile = () => {
   const defaultExtruder = require(path.resolve(__dirname, '../configs/extruder/default-extruder.json'))
+  const defaultSpeed = require(path.resolve(__dirname, '../configs/speed/default-speed.json'))
   const defaultQuality = require(path.resolve(__dirname, '../configs/quality/default-quality.json'))
   const defaultInfill = require(path.resolve(__dirname, '../configs/infill/default-infill.json'))
   const defaultRaft = require(path.resolve(__dirname, '../configs/raft/default-raft.json'))
@@ -47,7 +48,7 @@ const getDefaultProfile = () => {
   const baseConfigXml = fs.readFileSync(path.resolve(__dirname, '../configs/base-config.xml'), 'utf8')
   const baseConfig = convert.xml2js(baseConfigXml, { compact: true, ignoreComment: true, spaces: 4 })
 
-  return merge(baseConfig, defaultExtruder, defaultQuality, defaultInfill, defaultRaft, defaultSupports, defaultTemp, defaultFan)
+  return merge(baseConfig, defaultExtruder, defaultSpeed, defaultQuality, defaultInfill, defaultRaft, defaultSupports, defaultTemp, defaultFan)
 }
 
 const outputProfileToXmlFile = (path, profile) => {

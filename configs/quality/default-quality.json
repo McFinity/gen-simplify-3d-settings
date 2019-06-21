@@ -9,6 +9,13 @@
     "firstLayerHeightPercentage": 50,
     "firstLayerWidthPercentage": 125,
     "firstLayerUnderspeed": 0.5,
-    "supportUnderspeed": 0.8
+    "supportUnderspeed": 0.8,
+    "externalThinWallType": "0",
+    "internalThinWallType": "2",
+    "thinWallAllowedOverlapPercentage": "10",
+    "singleExtrusionMinLength": "1",
+    "singleExtrusionMinPrintingWidthPercentage": "90",
+    "singleExtrusionMaxPrintingWidthPercentage": "200",
+    "singleExtrusionEndpointExtension": "0.2"
   }
 }
