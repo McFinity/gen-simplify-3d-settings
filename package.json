@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "glob": "^7.1.4",
-    "merge-deep": "^3.0.2",
+    "merge-deep": "^3.0.3",
     "xml-js": "^1.6.11"
   }
 }
